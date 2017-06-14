@@ -118,13 +118,13 @@ def get_board_details(name = None, mac = None, ip = None, all=False):
 
 def print_board_details(name = None, macaddr = None, ipaddr = None):
     board_details = '''
-*****************************************
+*******************************************************************************
 
         Board name        :    %s
         MAC address       :    %s
         IP address        :    %s
 
-*****************************************
+*******************************************************************************
 ''' % (name, macaddr, ipaddr)
     print(board_details)
 
